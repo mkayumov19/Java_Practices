@@ -1,9 +1,0 @@
-
-P
-java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8¶üˆˆ‡/
-X	java:S125"<This block of commented-out lines of code should be removed.(›ê˜¡8‡“Ó‡‡/
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤Úş¤
-Y
-java:S1854$"7Remove this useless assignment to local variable "one".(Èˆ‰¶ùÿÿÿÿ8şµ¸ˆ‡/
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(Ë—âÁúÿÿÿÿ8şµ¸ˆ‡/
-U	java:S106'"9Replace this use of System.out or System.err by a logger.(ïíï»8şµ¸ˆ‡/
