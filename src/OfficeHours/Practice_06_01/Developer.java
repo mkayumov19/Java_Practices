@@ -1,5 +1,16 @@
 package OfficeHours.Practice_06_01;
 
+/*
+- create a class called Developer
+                    Attributes:
+                        name, employeeID, JobTitle, Salary
+                        hasCodingSkills
+                    Constructor:
+                        accepts and sets all instance variables
+                    Actions:
+                        getter/setters, coding(),  fixingBug(), toString()
+ */
+
 public class Developer {
 
     private String name;

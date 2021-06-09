@@ -1,5 +1,16 @@
 package OfficeHours.Practice_06_01;
 
+/*
+- create a class called Tester
+                    Attributes:
+                        name, employeeID, JobTitle, Salary
+                    Constructor:
+                        accepts and sets all instance variables
+                    Actions:
+                        getter/setters, smokeTesting(),  creatingTicket(), toString()
+            -> Optional: static variable
+ */
+
 public class Tester {
 
     private String name;
@@ -7,9 +18,9 @@ public class Tester {
     private String jobTitle;
     private double salary;
 
-    public Tester(){
-
-    }
+//    public Tester(){
+//
+//    }
 
     public Tester(String name, int employeeID, String jobTitle, double salary){
         this.name = name;
@@ -19,11 +30,11 @@ public class Tester {
     }
 
     public void smokeTesting(){
-        System.out.println(this.name + " is running smoke test");
+        System.out.println(this.name + " is running a smoke test");
     }
 
     public void createTicket(){
-        System.out.println(this.name + " is creating ticket");
+        System.out.println(this.name + " is creating a ticket");
     }
 
     public String getName() {
