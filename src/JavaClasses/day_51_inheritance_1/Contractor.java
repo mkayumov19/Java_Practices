@@ -1,4 +1,4 @@
-package JavaClasses.day_51_inheritance;
+package JavaClasses.day_51_inheritance_1;
 
 public class Contractor extends Employee {
 

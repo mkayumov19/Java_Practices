@@ -1,4 +1,4 @@
-package JavaClasses.day_51_inheritance;
+package JavaClasses.day_51_inheritance_1;
 
 public class EmployeeObjects {
     public static void main(String[] args){

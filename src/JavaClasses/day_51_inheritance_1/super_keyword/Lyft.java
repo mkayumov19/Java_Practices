@@ -1,4 +1,4 @@
-package JavaClasses.day_51_inheritance.super_keyword;
+package JavaClasses.day_51_inheritance_1.super_keyword;
 
 public class Lyft {
 
