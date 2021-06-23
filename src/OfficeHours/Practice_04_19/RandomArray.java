@@ -1,4 +1,4 @@
-package OfficeHours.Practice_04_19_Imissed;
+package OfficeHours.Practice_04_19;
 
 import java.util.Arrays;
 import java.util.Random;
