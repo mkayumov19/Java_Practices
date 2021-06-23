@@ -2,7 +2,7 @@ package MyOwnPractices.replitTasks;
 
 public class GetDuplicates {
     public static void main(String[] args) {
-        String[] strs = {"1", "2", "aa", "1"};
+        String[] strs = {"8", "1", "g", "aabb", "7","7","2","aa","7"};
         System.out.println(getDup(strs));
     }
 
@@ -12,17 +12,17 @@ public class GetDuplicates {
 
         for (int i = 0; i < r.length; i++) {
             int count = 0;
-            if (checked.equals(r[i])) {
+            if (checked.contains(r[i])) {
                 continue;
             }
             for (int j = 0; j < r.length; j++) {
-                if (r[i].equals(r[j])) {
+                if (r[j].equals(r[i])) {
                     count++;
                 }
-                checked = r[j];
             }
+            checked += r[i];
             if (count > 1) {
-                dup += count;
+                dup = count;
             }
 
         }

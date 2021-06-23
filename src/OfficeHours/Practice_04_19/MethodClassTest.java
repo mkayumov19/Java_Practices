@@ -1,4 +1,4 @@
-package OfficeHours.Practice_04_19_Imissed;
+package OfficeHours.Practice_04_19;
 
 public class MethodClassTest {
     public static void main(String[] args){

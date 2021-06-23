@@ -1,4 +1,4 @@
-package OfficeHours.Practice_04_19_Imissed;
+package OfficeHours.Practice_04_19;
 import JavaClasses.day_38_methods.StringUtils;
 
 public class ReverseEachWord {
