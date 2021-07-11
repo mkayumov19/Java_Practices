@@ -36,4 +36,5 @@ public class CheckingAccount {
     public String getType() {
         return type;
     }
+
 }
