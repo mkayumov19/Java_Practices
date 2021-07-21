@@ -4,6 +4,7 @@ public class MultiBranchIfStatements {
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
         System.out.println("Please enter number of day to get name of the week: ");
+
         int day = input.nextInt();
         if (day == 1) {
             System.out.println("Day "+day+" is Monday");

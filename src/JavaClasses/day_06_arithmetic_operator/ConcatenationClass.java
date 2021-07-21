@@ -7,9 +7,9 @@ public class ConcatenationClass {
         String lastName = "Smith";
         String str = "My name is ";
 
-        System.out.println("My name is "+firstName);
-        System.out.println(firstName+lastName);
-        System.out.println(str+firstName+" "+lastName);
+        System.out.println("My name is " + firstName);
+        System.out.println(firstName + lastName);
+        System.out.println(str + firstName + " " + lastName);
 
     }
 }

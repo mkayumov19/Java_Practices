@@ -4,8 +4,10 @@ import java.util.Scanner;
         public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
             System.out.println("Enter total price: ");
+
             double totalPrice = scan.nextDouble();
             System.out.println("Minimum $25 shopping required to be eligible for free shipping");
+
             if(totalPrice >= 25){
                 System.out.println("Your total price: $"+totalPrice+". You are eligible for free shipping.");
             }else{
@@ -14,4 +16,5 @@ import java.util.Scanner;
             }
             System.out.println("Thank you for using Amazon.");
         }
+
 }

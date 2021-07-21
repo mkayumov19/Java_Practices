@@ -10,7 +10,7 @@ public class FirstAndLastTest {
         int letter = word.indexOf("av");                    // if 2 same letters --> returns 1st one only
         System.out.println(letter);
 
-        /**            012345     */
+        //              012345
         String word1 = "github project";
         System.out.println(word1.indexOf("g"));             //0
         System.out.println(word1.indexOf("u"));             //4

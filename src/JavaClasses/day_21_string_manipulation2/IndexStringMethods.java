@@ -29,6 +29,7 @@ public class IndexStringMethods {
         String withSpaces = first+ " "+second+" "+third+" "+fourth+" "+fifth+" "+six+" "+seven+" "+eight;
         System.out.println(withSpaces);
 
+
 /**           PALINDROME is word readable same from each end */
         String word5 = "mom";
         char firstNum = word5.charAt(0);

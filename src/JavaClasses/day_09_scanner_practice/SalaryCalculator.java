@@ -17,7 +17,6 @@ import java.util.Scanner;
             System.out.println("Monthly pay: $"+monthlyPay);
             System.out.println("Annual income: $"+annualPay);
 
-
         }
 
 }

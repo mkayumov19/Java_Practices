@@ -11,7 +11,6 @@ public class ElementaryStudent {
     public ElementaryStudent(String name, int age) {
         setName(name);
         setAge(age);
-        this.school = school;
     }
 
     public void setName(String name) {

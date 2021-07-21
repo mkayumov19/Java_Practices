@@ -9,6 +9,7 @@ public class BooleanComparisonOperators {
 //        >= --> greater than or equals
 //        =< --> less than or equals
 //        != --> not equal
+
         System.out.println(5 == 5);
         System.out.println(10 > 5);
         System.out.println(10 < 5);

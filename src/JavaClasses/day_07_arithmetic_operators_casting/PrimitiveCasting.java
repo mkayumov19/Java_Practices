@@ -3,12 +3,12 @@ package JavaClasses.day_07_arithmetic_operators_casting;
 public class PrimitiveCasting {
     public static void main(String[] args) {
 
-//      int m1 = 4;                         will show error as int is bigger then byte
-//      byte b1 = m1;                       in order to make it work we need to Cast it
-
         int m1 = 4;
         byte b1 = (byte) m1;                //to cast we put smaller primitive "type" in "()"--> (smaller primitive type)
-            System.out.println(b1);
+        System.out.println(b1);
+
+//      int m1 = 4;                         will show error as int is bigger then byte
+//      byte b1 = m1;                       in order to make it work we need to Cast it
 
         int num1 = 100;
         byte b2 = (byte)num1;

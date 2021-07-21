@@ -4,7 +4,7 @@ import JavaClasses.day_38_methods.StringUtils;
 public class ReverseEachWord {
 
 /*  Reverse Each word
-    Given a String, reverse each individual word and print the result Hint: Use a nested loop, split
+    Given a String, reverse each individual word and print the result, Hint: Use a nested loop, split
     Input:
     It started to snow in Chicago
     Output:

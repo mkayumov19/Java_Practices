@@ -2,16 +2,16 @@ package JavaClasses.day_18_conditions_practice_string_intro;
 
 public class IfWithoutCurlyBraces {
     public static void main(String[] args) {
-                                                                        //   {} - curly brace
-        String todaysClass = "Java";                                // using with curly braces as usual.
-        if (todaysClass.equals("Java")) {
+
+        String todaysClass = "Java";
+        if (todaysClass.equals("Java")) {                  // {} - curly brace. using with curly braces as usual.
             System.out.println("1st Java is fun");
         } else {
             System.out.println("Its not java. Its " + todaysClass);
         }
 //============================================================================================================
         if (todaysClass.equals("Java"))                             // without curly brace {} can be used
-            System.out.println("2nd Java is fun");                      // only when ONE statement in condition
+            System.out.println("2nd Java is fun");                  // only when ONE statement in condition
          else                                                       // but not suggested
             System.out.println("Its not java. Its " + todaysClass);
 // ===========================================================================================================
