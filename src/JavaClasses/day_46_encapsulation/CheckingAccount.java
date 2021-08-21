@@ -9,6 +9,10 @@ public class CheckingAccount {
         this.balance = balance;
     }
 
+    public int getBalance() {
+        return balance;
+    }
+
     public void setAccountNumber(int accountNumber) {
         this.accountNumber = accountNumber;
     }
@@ -21,9 +25,7 @@ public class CheckingAccount {
         this.type = type;
     }
 
-    public int getBalance() {
-        return balance;
-    }
+
 
     public int getAccountNumber() {
         return accountNumber;
