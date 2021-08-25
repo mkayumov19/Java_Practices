@@ -17,6 +17,7 @@ package MyOwnPractices.mixedPractices;
 public interface LambdaDemo {
 
     public void demo1();
+
     }
 
     class demoRun implements LambdaDemo{
