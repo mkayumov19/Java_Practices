@@ -14,17 +14,18 @@ package MyOwnPractices.mixedPractices;
  Runnable, Callable, Comparable, ActionListener   -> have Single abstract method.
  */
 
-public interface LambdaDemo {
-
-    public void demo1();
+    public interface LambdaDemo {
+         void demo1();
 
     }
+//====================================================
 
     class demoRun implements LambdaDemo{
             public void demo1(){
                 System.out.println("Hello Lambda");
             }
         }
+//====================================================
 
     class lambdaTester {
             public static void main(String[] args) {
