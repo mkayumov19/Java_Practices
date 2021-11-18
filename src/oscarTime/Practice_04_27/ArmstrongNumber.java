@@ -2,7 +2,7 @@ package oscarTime.Practice_04_27;
 
 public class ArmstrongNumber {
     public static void main(String[] args) {
-        System.out.println(isArmstrong(153));
+        System.out.println(isArmstrong(1999));
     }
 
     public static boolean isArmstrong(int num) {

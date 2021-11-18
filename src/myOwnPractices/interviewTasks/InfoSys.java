@@ -1,5 +1,6 @@
 package myOwnPractices.interviewTasks;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -23,7 +24,6 @@ public class InfoSys {
         map1.put(1, "java");
         map1.put(1, "phyton");
         System.out.println(map1);
-
 
 
     }
